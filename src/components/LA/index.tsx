@@ -8,7 +8,7 @@ const Chicago: FC = (): JSX.Element => {
     <Container id="about">
       <Content>
         <h1>Little Lemon</h1>
-        <h2>Chicago</h2>
+        <h2>LA</h2>
         <p className="lead-txt">
           Little Lemon is owned by two Italian brothers, Mario and Adrian, who moved to the United States to pursue their shared dream of owning a restaurant.
         </p>

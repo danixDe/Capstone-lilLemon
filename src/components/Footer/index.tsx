@@ -1,7 +1,7 @@
 import { FC, HTMLAttributes } from "react";
 import { HashLink } from "react-router-hash-link";
 import { Container, Content, Copyright, Column, Image } from "./styles";
-import restaurant from "../../assets/restaurant.jpg";
+import restaurant from "../../assets/restaurant chef B.jpg";
 
 const Footer: FC<HTMLAttributes<HTMLElement>> = (props): JSX.Element => {
   return (
@@ -43,16 +43,15 @@ const Footer: FC<HTMLAttributes<HTMLElement>> = (props): JSX.Element => {
             <li>
               <address>
                 Little Lemon <br />
-                331 E Chicago <br />
-                LaSalle Street Chicago,
+                LA <br />
                 <br />
-                Illinois 60602 <br />
+                Illinois <br />
                 USA
               </address>
             </li>
             <li>
               {" "}
-              <a href="tel:+551199999999" target="_blank" rel="external">
+              <a href="tel:+9999999999" target="_blank" rel="external">
                 +55 11 9999-9999
               </a>{" "}
             </li>
@@ -74,7 +73,7 @@ const Footer: FC<HTMLAttributes<HTMLElement>> = (props): JSX.Element => {
             <li>
               {" "}
               <a
-                href="https://www.facebook.com/littlelemon"
+                href="https://www.facebook.com/"
                 target="_blank"
                 rel="external"
               >
@@ -84,7 +83,7 @@ const Footer: FC<HTMLAttributes<HTMLElement>> = (props): JSX.Element => {
             <li>
               {" "}
               <a
-                href="https://www.instagram.com/littlelemon"
+                href="https://www.instagram.com/"
                 target="_blank"
                 rel="external"
               >
@@ -94,7 +93,7 @@ const Footer: FC<HTMLAttributes<HTMLElement>> = (props): JSX.Element => {
             <li>
               {" "}
               <a
-                href="https://twitter.com/littlelemon"
+                href="https://twitter.com/"
                 target="_blank"
                 rel="external"
               >
@@ -105,8 +104,8 @@ const Footer: FC<HTMLAttributes<HTMLElement>> = (props): JSX.Element => {
         </Column>
       </Content>
       <Copyright>
-        <span>Developed by Abdullah Iqbal.</span>
-        <p>© 2023 Little Lemon. All rights reserved.</p>
+        <span>Developed by Aravind Bollapragada.</span>
+        <p>© 2025 Little Lemon. All rights reserved.</p>
       </Copyright>
     </Container>
   );
